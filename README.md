@@ -10,13 +10,15 @@
 
 <p>In this repository I have used <b>Linear Support Vector Classsification</b> model pre-built in sklearn for predicting classes.
 LinearSVC works well for datasets having less data and less atrributes to train the model. Dataset used has only 150 data samples overall so
-LinearSVC performed well with accuracy of 93% and predicted only 3 test data wrong.
+LinearSVC performed well with accuracy of 93% and predicted only 3 test data wrong. <br><br>
 <img src="./assets/report.png">
 </p> 
 
 # Predicted classes visualization
 <h3>Scatter plot between attributes and categorized using color based on predictions</h3>
-<img src="./assets/pwVSpl.png">
+<h4>Petal width VS Petal length</h4>
+<img src="./assets/pwVSpl.png"><br><br>
+<h4>Petal width VS Petal length</h4>
 <img src="./assets/pwVSsw.png">
 <p>More visualization can be found in jupyter notebook in this repository itself named: <b>Flowers Identification using svm.ipynb</b> </p>
 
