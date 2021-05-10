@@ -24,6 +24,6 @@ def predict():
     output = prediction[0]
     #output = "Aditya"
     
-    return render_template('index.html', prediction_text = f"The flower species: {output}")
+    return render_template('index.html', prediction_text = f"{output} ")
 if __name__ == '__main__':
     app.run(debug=True, port=8000)
