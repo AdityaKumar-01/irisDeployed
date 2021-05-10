@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login">
+        <h1>Species prediction</h1>
+        <form action="{{url_for('predict')}}" method="POST">
+            <input type="number" name='a' placeholder="Sepal length">
+            <input type="number" name='b' placeholder="Sepal width">
+            <input type="number" name='c' placeholder="Petal length">
+            <input type="number" name='d' placeholder="Petal width"><br>
+
+            <button type = 'submit'>Predict</button>
+        </form>
+        <br><br>
+        {{prediction_text}}
+    </div>
+</body>
+</html>
